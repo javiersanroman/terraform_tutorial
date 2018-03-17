@@ -5,7 +5,7 @@ provider "aws"{
 }
 
 resource "aws_instance" "jsr_example" {
-	#centos 7 official AMI ( paid subscription )
+	#centos 7 official AMI (paid subscription)
 	ami = "ami-337be65c"  
 	instance_type = "t2.micro"
 }
